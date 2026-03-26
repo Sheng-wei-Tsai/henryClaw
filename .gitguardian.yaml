@@ -1,0 +1,8 @@
+version: 2
+
+# Ignore minified build bundles in .agents/skills/*/scripts/
+# These files contain @google/genai (gaxios) library code that includes
+# a false-positive pattern: secret="<<REDACTED>..." used for error redaction.
+# The bundles are generated from src/ and do not contain real secrets.
+ignore-paths:
+  - .agents/skills/*/scripts/*.js
