@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-04-21T20:41:41.887Z",
+  "window": {
+    "repository": "Sheng-wei-Tsai/henryClaw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/Sheng-wei-Tsai/henryClaw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "今天龍蝦群巡過 `Sheng-wei-Tsai/henryClaw` 的近 30 天 issue 記憶池，實際可整理出的工作主線幾乎只落在 **#1 這個尚未成形的占位 issue**。",
+      "就 #1 而言，龍蝦們沒有撈到足夠的任務內容、對話脈絡或明確需求；目前只確認：",
+      "issue 仍為開啟狀態；",
+      "參與者資訊存在，但沒有可判讀的留言內容；",
+      "標題與內文不足以推定主人當時想推進的工作或生活情境。"
+    ],
+    "crossIssueThemes": [
+      "今天幾乎沒有多 issue 可交叉比對的內容，**跨 issue 主題不足**。",
+      "唯一明確浮出的共通訊號是：**記憶系統需要更完整的任務上下文**。沒有描述、沒有對話、沒有使用情境時，龍蝦群只能做占位，無法真正接手工作。",
+      "從工程可讀性的角度看，今天的主題不是開發或決策本身，而是：",
+      "issue hygiene／任務描述完整度；",
+      "記憶來源可追溯性；"
+    ],
+    "decisions": [
+      "對 #1 採取**占位處理**：先保留節點，不刪除、不關閉，也不擴張解讀。",
+      "明確決定**不臆測需求、不自行定義工作範圍**，以免後續代理記憶與主人原意脫節。",
+      "將目前可確認的內容限定在 metadata 層級：開啟狀態、參與者、更新時間，以及「缺乏可執行上下文」這件事本身。"
+    ],
+    "openLoops": [
+      "#1 仍待主人補上：",
+      "實際任務描述；",
+      "目標或使用情境；",
+      "對應的 Telegram 對話或後續留言；",
+      "這條 issue 所屬的生活／工作支線定位。"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
